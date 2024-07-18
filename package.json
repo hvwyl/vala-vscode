@@ -34,7 +34,17 @@
           "vala"
         ],
         "extensions": [
-          ".vala",
+          ".vala"
+        ],
+        "configuration": "./language-configuration-vala.json"
+      },
+      {
+        "id": "vapi",
+        "aliases": [
+          "Vapi",
+          "vapi"
+        ],
+        "extensions": [
           ".vapi"
         ],
         "configuration": "./language-configuration-vala.json"
@@ -54,6 +64,11 @@
     "grammars": [
       {
         "language": "vala",
+        "scopeName": "source.vala",
+        "path": "./syntaxes/vala.tmLanguage"
+      },
+      {
+        "language": "vapi",
         "scopeName": "source.vala",
         "path": "./syntaxes/vala.tmLanguage"
       },
